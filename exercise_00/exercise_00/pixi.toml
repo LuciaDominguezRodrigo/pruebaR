@@ -1,0 +1,28 @@
+[workspace]
+authors = ["JosepFAbril <jabril@ub.edu>"]
+channels = ["bioconda", "conda-forge", "main", "r", "msys2"]
+name = "BScBI-CG2526_exercises"
+platforms = ["linux-64"]
+version = "0.1.0"
+channel-priority = "disabled"
+
+[tasks]
+
+[dependencies]
+htop = "*"
+neofetch = { channel = "dnachun" }
+vim = "*"
+emacs = "*"
+gawk = "*"
+perl = "*"
+python = "*"
+biopython = "*"
+wget = "*"
+curl = "*"
+gzip = "*"
+r-ggplot2 = "*"
+### you can try those at your own risk
+# texlive-core = "*"
+# pdflatex = "*"
+pandoc = "*"
+pandocfilters = "*"
